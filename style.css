@@ -1,0 +1,153 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    font-family:'poppins',sans-serif;
+}
+
+.container
+{
+     height:100vh;
+     width:100%;
+    background-image:url("https://i.postimg.cc/yd5zL0XH/background.png");
+    background-size:contain;
+    background-position:;
+    background-repeat:no-repeat ;
+    color:#fff;
+    
+    
+}
+
+  
+     /*------nav ----*/
+     
+     
+nav
+{
+    width:100%;
+    padding:20px 20px;
+    display:flex;
+    align-items:center;
+}
+
+nav .logo
+{
+    width:50px;
+    cursor:pointer;
+    margin-left:50px;
+    margin-right:20px;
+}
+
+nav ul
+{
+    flex:1;
+}
+
+nav ul li
+{
+    display:inline-block ;
+    margin:10px 20px;    
+}
+
+nav
+{
+    color:#fff;
+    list-style:none;
+}
+nav ul li a
+{
+   color:#fff;
+   text-decoration:none;
+}
+
+nav .btn
+{
+    text-decoration:none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:10px 30px;
+    border-radius:20px;
+}
+
+
+    /* -------content -------*/
+     
+
+
+.content
+{
+    margin-left:100px;
+    margin-top:160px;
+}
+
+.content h1
+{
+    font-size:70px;
+}
+
+.content h1 span
+{
+    color:orange;
+}
+.content p
+{
+    max-width:430px;
+    margin:15px 0;
+    line-height:22px;
+}
+
+.content .btn
+{
+    display:inline-block ;
+    text-decoration:none;
+    background:orange;
+    color:#000;
+    font-weight:500;
+    border:1px solid orange;
+    
+    padding:15px 20px;
+    margin-top:25px;
+    border-radius:30px;
+}
+
+
+    /*------coin list -----*/
+    
+.coin-list
+{
+    display:flex ;
+    margin-top:37px;
+    justify-content:flex-end;
+}
+
+.coin
+{
+    border:1px solid #fff;
+    color:orange;
+    font-size:18px;
+    margin-right:15px;
+    margin-left:10px;
+    padding:5px 16px;
+    border-radius:20px;   
+    text-align:center;
+    display:flex ;
+    align-items:center;
+        
+}
+
+.coin h3
+{
+    color:#fff;
+    margin-bottom:5px;
+    
+}
+
+.coin img
+{
+    width:50%;
+    padding:11px;
+}
+
